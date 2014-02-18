@@ -16,9 +16,7 @@
 
 	//  Dichiarazione delle variabili
 	var win = $(window);
-	// Genero l'effetto solo se la larghezza della finestra è superiore a 800px
-	// Necessaria l'inclusione di modernizr  
-	if ( Modernizr.mq('only all and (min-width: 800px)') )  {              
+
 	  $('[data-type="vertical_parallax"]').each(function(){
 
 	    //  Dichiarazione delle variabili
@@ -42,5 +40,4 @@
 	      });
 	    }); // Fine Window scroll        
 	  }); // Fine each elements 
-	} // Fine modernizr
 })(jQuery);
